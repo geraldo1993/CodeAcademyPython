@@ -20,4 +20,4 @@ Re-arrange the parameters to the right of the % operator so that you print now.m
 from datetime import datetime
 now = datetime.now()
 
-print '%s-%s-%s' % (now.year, now.month, now.day)
+print '%s/%s/%s' % (now.year, now.month, now.day)
